@@ -1,5 +1,7 @@
 # Respiratory-Diseases-Detection (ReDD)
 
+[Demo Link](https://redd-frontend.netlify.app/)
+
 ## What ReDD does?
 ReDD stands for "Respiratory Diseases Detection". This is an AI based web app that that predicts the possibility of certain respiratory diseases just using the breathing audio of the patient measured through easily available any digital stethoscope. ReDD also generated a report for the patient that he he can use to analyze the current situation for further treatment.
  
