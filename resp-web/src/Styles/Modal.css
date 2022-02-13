@@ -1,0 +1,54 @@
+#mic {
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+}
+
+#mic_logo {
+  width: 70%;
+  height: 70%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.rhap_container {
+  width: 70%;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.btn {
+  width: 70%;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background: linear-gradient(
+    134deg,
+    rgb(106, 152, 240) 0%,
+    rgb(73, 97, 220) 100%
+  );
+  color: white;
+  font-size: 18px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin: 10px;
+}
+
+.btn:hover {
+  background: linear-gradient(
+    134deg,
+    rgb(106, 152, 240) 0%,
+    rgb(73, 97, 220) 50%
+  );
+}
+
+#modal_bt_Cont {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin-top: 40px;
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+#curve {
+  height: 100px;
+  width: 100vw;
+  cursor: default;
+}
+
+#resultPage-Cont {
+  height: 100%;
+}
+
+#resultImg {
+  width: 450px;
+}
+
+#result-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+#Teams-Container {
+  background-color: white;
+}
+
+#Cards-Container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+#curve {
+  height: 100px;
+  width: 100vw;
+}

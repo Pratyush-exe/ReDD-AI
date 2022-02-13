@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+#curve {
+  height: 100px;
+  width: 100vw;
+  cursor: default;
+}
+
+#landing-img {
+  width: 40vw;
+}
+
+#pointers-container {
+  width: 500px;
+  height: 500px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  font-family: "Montserrat";
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+#landing-h2 {
+  font-size: 60px;
+}
+
+#landing-divider {
+  height: 10px;
+  background-color: #304ee2;
+  width: 60px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+#landing-para {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+#landing-begin-bt {
+  margin-top: 70px;
+  margin-left: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(
+    134deg,
+    rgb(106, 152, 240) 0%,
+    rgb(73, 97, 220) 100%
+  );
+  border: none;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#landing-begin-bt:hover {
+  background: linear-gradient(
+    134deg,
+    rgb(106, 152, 240) 0%,
+    rgb(73, 97, 220) 50%
+  );
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+.card-header {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  background-color: rgba(255, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 250px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 5px 20px;
+}
+
+.card-header-title {
+  color: rgb(74 76 87);
+  padding: 10px;
+}
+
+.card-details {
+  opacity: 1;
+  transform: translateX(0vw) translateZ(0px);
+  background-color: #c7d0ff;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Montserrat";
+}
+
+#card-title {
+  font-family: "Montserrat";
+  color: black;
+  font-size: 45px;
+  font-weight: bolder;
+}
+#card-status {
+  font-family: "Montserrat";
+  color: black;
+  font-weight: bolder;
+}

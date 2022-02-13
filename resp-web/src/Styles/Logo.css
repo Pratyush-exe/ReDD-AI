@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+@keyframes close {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 0vh;
+    overflow: hidden;
+  }
+}
+
+#logo-page-containers {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: close;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  transition: all;
+  animation-fill-mode: both;
+}
+
+#logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#lungs {
+  width: 80px;
+}
+
+#divider {
+  background-color: white;
+  width: 2px;
+  height: 45px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#logo_logo {
+  color: white;
+  font-size: 55px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}

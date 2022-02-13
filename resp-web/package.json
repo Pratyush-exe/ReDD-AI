@@ -1,0 +1,54 @@
+{
+  "name": "resp-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@kunukn/react-collapse": "^2.2.9",
+    "@mui/material": "^5.4.1",
+    "@mui/styled-engine-sc": "^5.4.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "extendable-media-recorder": "^6.5.17",
+    "extendable-media-recorder-wav-encoder": "^7.0.66",
+    "framer-motion": "^6.2.4",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "react": "^17.0.2",
+    "react-collapsible": "^2.8.4",
+    "react-dom": "^17.0.2",
+    "react-h5-audio-player": "^3.8.2",
+    "react-parallax-mouse": "^1.5.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.4",
+    "recorder-js": "^1.0.7",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+Flask
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+gevent
+librosa
+tensorflow-cpu
+numpy
+Flask-Cors
+wave
+h5py
+

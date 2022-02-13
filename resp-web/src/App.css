@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+#invisibleButton {
+  display: none;
+}
+
+#test {
+  font-size: 30px;
+}
